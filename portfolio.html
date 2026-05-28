@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Pavitr</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">PAV<span>ITR</span></div>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact.html">Contact</a></li>
+</nav>
+
+<section class="hero" style="min-height:70vh;">
+<div class="hero-content">
+<h1>PORT<span>FOLIO</span></h1>
+<p>Explore cinematic storytelling, editing, branding, posters, AI projects, and immersive visual creations.</p>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">Portfolio Showcase</h2>
+
+<div class="filter-bar">
+<button class="filter-btn active" data-filter="all">All Projects</button>
+</div>
+
+<div class="projects-grid">
+
+	
+<div class="project-card films">
+<img src="ChatGPT Image May 28, 2026, 04_58_41 PM.png" alt="Short Film">
+<div class="project-overlay">
+<h3>Motion Graphics</h3>
+<p>A cool graphic presentation.</p>
+<a href="Amul Ad.mp4" class="btn">View Project</a>
+</div>
+</div>
+
+
+<div class="project-card films">
+<img src="Swagatam.jpeg" alt="Short Film">
+<div class="project-overlay">
+<h3>Script Writing</h3>
+<p>Cinematic storytelling experience.</p>
+<a href="Swagatam..pdf" class="btn">View Project</a>
+</div>
+</div>
+
+	
+<div class="project-card posters branding">
+<!-- POSTER PROJECT -->
+<div class="project-card posters branding">
+
+    <!-- COVER IMAGE -->
+    <img src="poster.png" alt="Nike Poster">
+
+    <!-- OVERLAY -->
+    <div class="project-overlay">
+
+        <h3>Posters</h3>
+
+		<p>Creative posters.&nbsp; </p>
+
+        <!-- BUTTON -->
+        <a href="#" class="btn" onclick="openPosterGallery()">
+            View Project
+        </a>
+
+    </div>
+
+</div>
+
+<!-- POPUP GALLERY -->
+<div class="gallery-popup" id="posterGallery">
+
+    <!-- CLOSE BUTTON -->
+    <span class="close-btn" onclick="closePosterGallery()">
+        ✕
+    </span>
+
+    <!-- SWIPER -->
+    <div class="swiper posterSwiper">
+
+        <div class="swiper-wrapper">
+
+            <!-- IMAGE 1 -->
+            <div class="swiper-slide">
+                <img src="christmas instagram post.png">
+            </div>
+
+            <!-- IMAGE 2 -->
+            <div class="swiper-slide">
+                <img src="event insta post.png">
+            </div>
+
+            <!-- IMAGE 3 -->
+            <div class="swiper-slide">
+                <img src="instagram post.png">
+            </div>
+
+            <!-- IMAGE 4 -->
+            <div class="swiper-slide">
+                <img src="GOT poster.png">
+            </div>
+
+        </div>
+
+        <!-- ARROWS -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</div>
+</div>
+
+<div class="project-card ai animation">
+<img src="Screenshot (8).png" alt="AI Video">
+<div class="project-overlay">
+<h3>AI Video</h3>
+<p>Experimental AI cinematic visuals.</p>
+<a href="Video Editing.mp4" class="btn">View Project</a>
+</div>
+</div>
+
+	
+<div class="project-card design films">
+<img src="Matte Paint.png" alt="Matte Painting">
+<div class="project-overlay">
+<h3>Matte Painting</h3>
+<p>Cinematic environment compositing.</p>
+<a href="Matte paint parallex.mp4" class="btn">View Project</a>
+</div>
+</div>
+
+	<div class="project-card films">
+<img src="Screenshot (10).png" alt="Short Film">
+<div class="project-overlay">
+<h3>Social Media Post</h3>
+<p>A zomato animation.</p>
+<a href="Zomato AD.mp4"class="btn">View Project</a>
+</div>
+</div>
+<!-- ANIMATION PROJECT -->
+<div class="project-card animation">
+
+    <img src="LOGO.png">
+
+    <div class="project-overlay">
+
+        <h3>Envo&nbsp;</h3>
+
+        <p>Luxury Perfume Brand.</p>
+
+        <a href="#" class="btn" onclick="openAnimationGallery()">
+            View Project
+        </a>
+
+    </div>
+
+</div>
+
+<!-- POPUP -->
+<div class="gallery-popup" id="animationGallery">
+
+    <span class="close-btn"
+    onclick="closeAnimationGallery()">✕</span>
+
+    <div class="swiper animationSwiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <img src="buisness card mockup.png" height="900" width="1080">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="envelope mockup.png" height="900" width="1080">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="letter head mockup.png" height="900" width="1080">
+            </div>
+   <div class="swiper-slide">
+                <img src="welcome kit.png" height="900" width="900">
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">Social Platforms</h2>
+<div class="socials">
+<a href="https://youtube.com/@pav-bha?si=jSVXW8mFfnm9CcTU" target="_blank"><i class="fab fa-youtube"></i></a>
+<a href="https://www.behance.net/pavitrnayak" target="_blank"><i class="fab fa-behance"></i></a>
+<a href="https://www.instagram.com/pavitr_____16" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+</section>
+
+<footer class="footer">
+<p>© 2026 Pavitr — Cinematic Creative Portfolio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+
+function openAnimationGallery(){
+    document
+    .getElementById("animationGallery")
+    .classList.add("active");
+}
+
+function closeAnimationGallery(){
+    document
+    .getElementById("animationGallery")
+    .classList.remove("active");
+}
+
+var animationSwiper = new Swiper(".animationSwiper", {
+
+    loop:true,
+
+    navigation:{
+        nextEl:".animationSwiper .swiper-button-next",
+        prevEl:".animationSwiper .swiper-button-prev",
+    },
+
+});
+
+</script>
+<script>
+
+function openPosterGallery(){
+    document
+    .getElementById("posterGallery")
+    .classList.add("active");
+}
+
+function closePosterGallery(){
+    document
+    .getElementById("posterGallery")
+    .classList.remove("active");
+}
+
+var swiper = new Swiper(".posterSwiper", {
+
+    loop:true,
+
+    navigation:{
+        nextEl:".swiper-button-next",
+        prevEl:".swiper-button-prev",
+    },
+
+});
+
+</script>
+</body>
+</html>
